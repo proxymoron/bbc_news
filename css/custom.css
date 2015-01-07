@@ -4,6 +4,15 @@ body {
   font-family: arial,helvetica,sans-serif;
 }
 
+.break {
+  clear: both;
+}
+
+.fixedwidth {
+  width: 1000px;
+  margin: 0 auto;
+}
+
 /*================================
         Top Nav Bar
 ==================================*/
@@ -13,11 +22,6 @@ body {
   width: 100%;
   height: 40px;
   color: #fff;
-}
-
-.fixedwidth {
-  width: 1000px;
-  margin: 0 auto;
 }
 
 #logodiv {
@@ -81,15 +85,10 @@ body {
           News Bar
 ==================================*/
 
-.break {
-  clear: both;
-}
-
-
 #newsbar {
   background-color: #990000;
   width: 100%;
-  height: 100px;
+  height: 98px;
   color: #fff;
 }
 
@@ -129,14 +128,13 @@ body {
   padding: 5px 0 7px 5px;
   margin: 0;
   height: 13px;
-
 }
 
 #topic-menu li {
   list-style: none;
   float: left;
   font-size: 13px;
-  border-right: 1px solid #990000;
+  border-right: 1px solid #5B2D2F;
   padding: 0 5px 0 5px;
 }
 
@@ -147,6 +145,38 @@ body {
   height: 21px;
   position: relative;
   top: -5px;
-  padding-top: 5px !important;
+  padding-top: 4px !important;
   margin-left: -5px !important;
+  border-right: 9px solid #3E0C0D;
+}
+
+/*================================
+          Topic Sub-Menu
+==================================*/
+
+#sub-menu ul {
+  background-color: #EDEDED;
+  padding: 5px 0 7px 5px;
+  margin-top: -6px;
+  height: 13px;
+}
+
+#sub-menu li {
+  list-style: none;
+  float: left;
+  font-size: 11.9px;
+  border-right: 1px solid #ccc;
+  padding: 0 7px 0 7px;
+  color: #585858;
+  font-weight: bold;
+}
+
+/*================================
+              Content
+==================================*/
+
+#content {
+  width: 100%;
+  color: #505050;
+  font-size: 0.8em;
 }
